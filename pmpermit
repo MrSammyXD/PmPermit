@@ -6,10 +6,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $PMPERMIT_REPO == "PmPermit" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1Jbm5leGlhL1BtU2VjdXJpdHkvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1Jbm5leGlhL1BtU2VjdXJpdHkvYXJjaGl2ZS9tYXN0ZXIuemlw=" | base64 -d
     elif [[ $PMPERMIT_REPO == "PMPERMIT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1Jbm5leGlhL1BtU2VjdXJpdHkvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1Jbm5leGlhL1BtU2VjdXJpdHkvYXJjaGl2ZS9tYXN0ZXIuemlw=" | base64 -d
     elif [[ $PMPERMIT_REPO =~ $regex ]]
     then
         if [[ $PMPERMIT_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${PMPERMIT_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1Jbm5leGlhL1BtU2VjdXJpdHkvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1Jbm5leGlhL1BtU2VjdXJpdHkvYXJjaGl2ZS9tYXN0ZXIuemlw=" | base64 -d
     fi
 }
 
