@@ -20,8 +20,6 @@ pylast
 pySmartDL
 requests>=2.18.4
 search-engine-parser>=0.4.2
-sqlalchemy
-
 telethon==1.19.0
 html-telegraph-poster
 tswift
