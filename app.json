@@ -1,0 +1,67 @@
+{
+  "name": "FIGHTBOT",
+  "description": "The Mafia Userbot made by @H1M4N5HU0P special thanks to respective HellBot owner @Kraken_The_BadASS. Join for updates related info @MAFIABOT_SUPPORT",
+  "logo": "https://telegra.ph/file/b61486075c6ef73dd0d12.jpg ",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/H1M4N5HU0P/MAFIABOT/",
+  "website": "https://github.com/H1M4N5HU0P/MAFIABOT/",
+  "success_url": "https://t.me/MAFIABOT_SUPPORT",
+  "env": {
+    "ENV": {
+      "description": "Set this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "ALIVE_NAME": {
+      "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
+      "value": "",
+      "required": false
+    },
+    "PMPERMIT_PIC": {
+      "description": "put here any telegraph media link for custom pmpermit pic.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
+      "value": ""
+    },
+    "TG_BOT_USER_NAME_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
+      "value": ""
+    },
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "value": ""
+    }       
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/amivin/aria2-heroku.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "heroku/python"
+  }]
+}
