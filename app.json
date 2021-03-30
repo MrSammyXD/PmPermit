@@ -1,7 +1,7 @@
 {
-  "name": "FIGHTBOT",
-  "description": "The Mafia Userbot made by @H1M4N5HU0P special thanks to respective HellBot owner @Kraken_The_BadASS. Join for updates related info @MAFIABOT_SUPPORT",
-  "logo": "https://telegra.ph/file/b61486075c6ef73dd0d12.jpg ",
+  "name": "PmPermit",
+  "description": "The PmPermitBot made by @TeamInnexia special thanks to respective Himanshu. Join for updates related info @PmPermit",
+  "logo": "https://telegra.ph/file/1150004bb3a98682d2523.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,16 +9,16 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/H1M4N5HU0P/MAFIABOT/",
-  "website": "https://github.com/H1M4N5HU0P/MAFIABOT/",
-  "success_url": "https://t.me/MAFIABOT_SUPPORT",
+  "repository": "https://github.com/TeamInnexia/PmSecurity/",
+  "website": "https://github.com/TeamInnexia/PmSecurity/",
+  "success_url": "https://t.me/PmPermit",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
+      "description": "Fill your Full name or Username like @PmPermit. By default it is Mafia User",
       "value": "",
       "required": false
     },
